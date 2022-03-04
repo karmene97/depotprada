@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+     background-image: url("../Image/bgPrada.jpg");
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+/* ============================================= NAVBAR ====================================================== */
+
+nav {
+    height: 100px;
+    width: 100%;
+}
+.Menu {
+    float:left ;
+    padding: 5%;
+}
+nav img {
+    float: left;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.MenuTwo {
+    float: right;
+    padding: 5%;
+}
+nav li {
+    display: inline;
+    padding: 25px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: red;
+    font-family: benton-sans, sans-serif;
+}
+nav ul li a:hover {
+    color: white;
+    border-bottom: 3px solid red;
+    transition: 0.7s;
+}
+
+/* ============================================= SECTION ====================================================== */
+
+.load{
+    animation: slide 2s;
+}
+.slider {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 27%;
+    height: 76vh;
+    border-radius: 19px;
+    animation: slide 40s infinite;
+    -webkit-animation: slide 14.50s ease-in-out infinite;
+    float: left;
+    margin-left: -65%;
+    margin-top: 3%;
+}
+@keyframes slide {
+    0% {
+        background-image: url("../Image/bg1.jpeg");
+    }
+
+    20% {
+        background-image: url("../Image/bg1.jpeg");
+    }
+
+    20.01% {
+        background-image: url("../Image/bg2.jpeg");
+    }
+
+    40% {
+        background-image: url("../Image/bg2.jpeg");
+    }
+
+    40.01% {
+        background-image: url("../Image/bg3.jpeg");
+    }
+
+    60% {
+        background-image: url("../Image/bg3.jpeg");
+    }
+
+    60.01% {
+        background-image: url("../Image/bg4.jpeg");
+    }
+
+    80% {
+        background-image: url("../Image/bg4.jpeg");
+    }
+
+    80.01% {
+        background-image: url("../Image/bg5.jpeg");
+    }
+
+    100% {
+        background-image: url("../Image/bg5.jpeg");
+    }
+}
+.InfoPrada {
+    float: right;
+    width: 35%;
+    text-align: center;
+    margin-right: -31%;
+}
+.Descri {
+    line-height: 23px;
+    letter-spacing: 1px;
+    margin-right: 19%;
+    margin-bottom: 21px;
+    color: #e0e0e0;
+}
+.nomFondateur {
+    font-style: italic;
+    font-weight: bolder;
+    color: #97abcc !important;
+}
+.InfoPrada p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 19px;
+    padding: 2%;
+    margin-right: 19%;
+}
+.InfoPrada a {
+    color: #b47d9C;
+    font-weight: 700;
+}
+
+.InfoPrada span {
+    color: #e0e0e0;
+}
+
+.InfoPrada button {
+    background: transparent;
+    border-radius: 20px;
+    padding: 14px 24px;
+    font-size: 14px;
+    font-weight: normal;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 1rem;
+    border: 1px solid #97abcc;
+    margin-right: 19%;
+}
+
+.InfoPrada button a {
+    text-decoration: none;
+    color: red;
+}
+
+
+.InfoPrada button:hover {
+    border: 1px solid rgb(255, 0, 0);
+}
